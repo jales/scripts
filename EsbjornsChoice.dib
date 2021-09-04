@@ -1,0 +1,13 @@
+#!csharp
+
+var choice = 42;
+
+choice
+
+#!csharp
+
+using static System.Console;
+
+var description = choice != 42 ? "poorly" : "wisely";
+
+WriteLine($"Esbjörn chose {description}!");
